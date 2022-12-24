@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814446850117",
+    "project_id": "colorit-94be0",
+    "storage_bucket": "colorit-94be0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814446850117:android:e95f682f8654c9a8eef32c",
+        "android_client_info": {
+          "package_name": "com.hari.colorit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814446850117-0ud1k0db5muuskj9gijsjom8763a9c1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEgazv2WVQeBAwTfmRgz5YYkUiDCEz9JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814446850117-0ud1k0db5muuskj9gijsjom8763a9c1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.Dashboard"
+    android:background="@color/white">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:background="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/scramble_btn_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forty"
+        android:background="@drawable/btn_bg"
+        android:textSize="@dimen/fourteen_sp"
+        android:textColor="@color/black"
+        android:text="@string/scramble"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/thirty"/>
+
+</LinearLayout>
